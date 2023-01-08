@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_statuses",
+  "info": {
+    "singularName": "video-status",
+    "pluralName": "video-statuses",
+    "displayName": "VideoStatus"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "videoCount": {
+      "type": "integer"
+    }
+  }
+}

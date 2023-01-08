@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "manage_videos",
+  "info": {
+    "singularName": "manage-video",
+    "pluralName": "manage-videos",
+    "displayName": "ManageVideo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "videoName": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Active",
+        "Deactive"
+      ],
+      "default": "Active"
+    },
+    "videoCount": {
+      "type": "integer"
+    }
+  }
+}
